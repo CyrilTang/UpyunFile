@@ -16,7 +16,7 @@ use Upyun\Upyun;
 class UpyunFile_Plugin implements Typecho_Plugin_Interface {
 
     //上传文件目录
-    const UPLOAD_DIR = '/typecho/uploads';
+    const UPLOAD_DIR = '/typecho/usr/uploads';
     const IMG_EXT = ['JPG', 'JPEG', 'PNG', 'BMP'];
 
     /**
